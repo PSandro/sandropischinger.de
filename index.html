@@ -1,29 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <!--Import fontawesome-->
-    <link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
 
-  <body>
-    <div class="card-panel cyan darken-1">
-							<h1>Sandro Pischinger</h1>
-							<p>Hobby Software Developer<br><i class="fa fa-heart"></i> Backend Programming</p>
-							<ul>
-								<li><a href="https://twitter.com/sapisch"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="https://github.com/PSandro"><i class="fa fa-github"></i></a></li>
-								<li><a href="https://bitbucket.org/PSandro/"><i class="fa fa-bitbucket"></i></a></li>
-								<li><a href="https://stackoverflow.com/users/7872645/psandro"><i class="fa fa-stack-overflow"></i></a></li>
-							</ul>
-          <p>&copy; Sandro Pischinger</p>
-			</div>
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-  </body>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <!--Import fontawesome-->
+  <link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    #box {
+      margin: auto;
+      margin-top: 5%;
+      width: 400px;
+      height: 200px;
+    }
+
+    .centered {
+      margin: auto;
+    }
+
+    .flexbox {
+      display: flex;
+      flew-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="box">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://github.com/PSandro.png">
+          <span class="card-title">Sandro Pischinger</span>
+        </div>
+        <div class="card-content center-align">
+          <p>Hobby Software Developer<br><i class="fa fa-heart"></i> Backend Programming</p>
+        </div>
+        <div class="card-action">
+
+          <div class="row" style="width: 100%; height: 100%;">
+            <div class="flexbox">
+              <div class="col s1"><a href="https://twitter.com/sapisch"><i class="fab fa-twitter fa-3x"></i></a></div>
+              <div class="col s1"><a href="https://github.com/PSandro"><i class="fab fa-github fa-3x"></i></a></div>
+              <div class="col s1"><a href="https://bitbucket.org/PSandro/"><i class="fab fa-bitbucket fa-3x"></i></a></div>
+              <div class="col s1"><a href="https://stackoverflow.com/users/7872645/psandro"><i class="fab fa-stack-overflow fa-3x"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>&copy; Sandro Pischinger</p>
+  </div>
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
 </html>
