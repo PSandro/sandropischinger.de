@@ -10,31 +10,53 @@ body {
   color: #111111;
 }
 
-.table {
-  display: table;
+.container {
   margin: auto;
+  overflow: hidden;
+  width: inherit;
+}
+
+#card {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  /*for mobile*/
+}
+
+@media only screen and (min-width: 480px) {
+
+  /*for desktop*/
+  #card {
+    width: 480px;
+    margin: auto;
+    margin-top: 2%;
+    border-style: solid;
+    border-radius: 3px;
+  }
+}
+
+#card img {
   width: inherit;
 }
 
 @-webkit-keyframes rainbowframes {
-  0% {color: #111;}
-  100% {color: #FF4136;}
+  0% {
+    color: #111;
+  }
+
+  100% {
+    color: #FF4136;
+  }
 }
 
 .rainbow {
   -webkit-animation: rainbowframes 5s infinite alternate;
 }
 
-.container{
-  margin:auto;
-  overflow:hidden;
+.table {
+  display: table;
+  margin: auto;
   width: inherit;
-}
-
-footer{
-  padding:20px;
-  margin-top:20px;
-  text-align: center;
 }
 
 ul#icons {
@@ -58,23 +80,10 @@ ul#icons li {
   width: inherit;
 }
 
-#card {
-  margin: auto;
+footer {
+  padding: 20px;
+  margin-top: 20px;
   text-align: center;
-  width: 100%; /*for mobile*/
-}
-@media only screen and (min-width: 480px) { /*for desktop*/
-   #card {
-      width: 480px;
-      margin: auto;
-      margin-top: 2%;
-      border-style: solid;
-      border-radius: 3px;
-   }
-}
-
-#card img {
-   width: inherit;
 }
 
 #contribute {
