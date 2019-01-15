@@ -24,14 +24,25 @@ body {
 }
 
 @media only screen and (min-width: 480px) {
+  @keyframes slideInFromLeft {
+    0% {
+      box-shadow: 0 0;
+    }
+
+    100% {
+      box-shadow: 10px 10px black;
+    }
+  }
 
   /*for desktop*/
   #card {
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
     width: 480px;
     margin: auto;
     margin-top: 2%;
     border-style: solid;
     border-radius: 3px;
+    box-shadow: 10px 10px black;
   }
 }
 
