@@ -91,6 +91,17 @@ ul#icons li {
   width: inherit;
 }
 
+ul#icons a {
+  color: #FF4136;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+ul#icons a:hover {
+  color: rgb(172, 74, 69);
+  text-decoration: none;
+}
+
 footer {
   padding: 20px;
   margin-top: 20px;
