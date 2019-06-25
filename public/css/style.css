@@ -5,9 +5,9 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #DDDDDD;
+  background-color: rgb(63, 63, 63);
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  color: #111111;
+  color: #cfcfcf;
 }
 
 .container {
@@ -20,19 +20,13 @@ body {
   margin: auto;
   text-align: center;
   width: 100%;
+  background-color: rgb(201, 201, 201);
+  color: rgb(63, 63, 63);
+  border-color: rgb(201, 201, 201);
   /*for mobile*/
 }
 
 @media only screen and (min-width: 480px) {
-  @keyframes slideInFromLeft {
-    0% {
-      box-shadow: 0 0;
-    }
-
-    100% {
-      box-shadow: 10px 10px black;
-    }
-  }
 
   /*for desktop*/
   #card {
@@ -42,7 +36,6 @@ body {
     margin-top: 2%;
     border-style: solid;
     border-radius: 3px;
-    box-shadow: 10px 10px black;
   }
 }
 
@@ -79,7 +72,7 @@ ul#icons {
 #avatar {
   margin: 0;
   padding: 0;
-  border-bottom: solid #111111;
+  border-bottom: solid rgb(201, 201, 201);
   width: inherit;
 }
 
