@@ -16,6 +16,12 @@ body {
   width: inherit;
 }
 
+.impressum {
+  padding: 20px;
+}
+
+
+
 #card {
   margin: auto;
   text-align: center;
@@ -103,6 +109,10 @@ footer {
 
 #contribute {
   font-size: 15px;
+}
+
+#imprint {
+  font-size: 12px;
 }
 
 a {
