@@ -10,18 +10,9 @@ body {
   color: #cfcfcf;
 }
 
-.container {
-  margin: auto;
-  overflow: hidden;
-  width: inherit;
-}
-
-.impressum {
-  padding: 20px;
-}
 
 
-
+/* Main card with information */
 #card {
   margin: auto;
   text-align: center;
@@ -49,30 +40,11 @@ body {
   width: inherit;
 }
 
-@-webkit-keyframes rainbowframes {
-  0% {
-    color: #111;
-  }
-
-  100% {
-    color: #FF4136;
-  }
-}
-
-.rainbow {
-  -webkit-animation: rainbowframes 5s infinite alternate;
-}
-
-.table {
-  display: table;
+/* container in card */
+.container {
   margin: auto;
+  overflow: hidden;
   width: inherit;
-}
-
-ul#icons {
-  padding: 0;
-  text-align: center;
-  list-style: none;
 }
 
 #avatar {
@@ -82,7 +54,21 @@ ul#icons {
   width: inherit;
 }
 
-ul#icons li {
+/* contact inforamtions */
+.contact {
+  display: table;
+  margin: auto;
+  width: inherit;
+}
+
+/* social media icons */
+.social {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.social li {
   padding-left: 5%;
   padding-right: 5%;
   display: inline;
@@ -90,13 +76,13 @@ ul#icons li {
   width: inherit;
 }
 
-ul#icons a {
+.social a {
   color: #FF4136;
   text-decoration: none;
   transition: 0.4s;
 }
 
-ul#icons a:hover {
+.social a:hover {
   color: rgb(172, 74, 69);
   text-decoration: none;
 }
@@ -107,8 +93,13 @@ footer {
   text-align: center;
 }
 
+#copyright {
+  margin-bottom: 5px;
+}
+
 #contribute {
   font-size: 15px;
+  margin: 0;
 }
 
 #imprint {
