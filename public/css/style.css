@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
 
 body {
   width: 100%;
@@ -6,11 +6,31 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(63, 63, 63);
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+.rotate {
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  transition-timing-function: ease-in-out;
+}
+
+.rotate:hover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .fade {
-  visibility: hidden;
+  opacity: 0;
+  animation: fade-in 1.5s 0.5s forwards ease;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
 }
 
 .container {
@@ -24,11 +44,10 @@ body {
   width: 80%;
   height: auto;
   margin: 0 auto 10% auto;
-  background-color: #c9c9c9
+  background-color: #c9c9c9;
 }
 
-
-
+/** Mobile */
 #card {
   margin: auto;
   text-align: center;
@@ -36,12 +55,10 @@ body {
   background-color: rgb(201, 201, 201);
   color: rgb(63, 63, 63);
   border-color: rgb(201, 201, 201);
-  /*for mobile*/
 }
 
+/** Desktop */
 @media only screen and (min-width: 480px) {
-
-  /*for desktop*/
   #card {
     animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
     width: 480px;
@@ -56,17 +73,18 @@ body {
   width: inherit;
 }
 
-@-webkit-keyframes rainbowframes {
+@keyframes rainbowframes {
   0% {
     color: #111;
   }
 
   100% {
-    color: #FF4136;
+    color: #ff4136;
   }
 }
 
 .rainbow {
+  animation: rainbowframes 5s infinite alternate;
   -webkit-animation: rainbowframes 5s infinite alternate;
 }
 
@@ -115,11 +133,10 @@ ul#icons li {
   padding-right: 5%;
   display: inline;
   margin: auto;
-  width: inherit;
 }
 
 ul#icons a {
-  color: #FF4136;
+  color: #ff4136;
   text-decoration: none;
   transition: 0.4s;
 }
@@ -153,19 +170,6 @@ footer p {
 }
 
 a {
-  color: #FF4136;
+  color: #ff4136;
   text-decoration: none;
-}
-
-.rotate{
-    -moz-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;
-    transition-timing-function: ease-in-out;
-}
-
-.rotate.down{
-    -moz-transform:rotate(360deg);
-    -webkit-transform:rotate(360deg);
-    transform:rotate(360deg);
 }
