@@ -7,7 +7,7 @@ do and - of course - important links like github, stackoverflow, bitbucket and s
 
 Contributing?
 ---
-I am horribly bad at frontend stuff. If you are familiar with web developement, its likely that your eyes start bleeding
+I am horribly bad at frontend stuff. If you are familiar with web development, its likely that your eyes start bleeding
 by viewing my code. So please HELP ME!! to make this site viewable by contributing here.
 Just fork this repo and create a Pull request. Thank you :heart:
 
