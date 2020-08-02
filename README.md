@@ -1,8 +1,8 @@
-# psandro.eu
-This is my website: [www.psandro.eu](https://www.psandro.eu/)
+# sandropischinger.de
+This is my website: [sandropischinger.de](https://sandropischinger.de/)
 
 ---
-This is my website. Its purpose is to provide verry little information about who I am and what I 
+This is my website. Its purpose is to provide verry little information about who I am and what I
 do and - of course - important links like github, stackoverflow, bitbucket and so on.
 
 This site gets automatically deployed by https://www.netlify.com/
