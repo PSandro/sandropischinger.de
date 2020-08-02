@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-http://psandro.netlify.com/* http://www.psandro.eu/:splat 301!
