@@ -1,9 +1,18 @@
 <template>
   <div class="footer">
     <div class="footer-grid">
-      <p class="footer-element">&copy; Sandro Pischinger</p>
-      <a href="Test" class="footer-element">Impressum</a>
-      <a href="https://github.com/PSandro/sandropischinger.de" class="footer-element">contribute</a>
+      <div class="footer-element">
+        <p>&copy;2020 Sandro Pischinger</p>
+      </div>
+      <div class="footer-element">
+        <a href="Test">Impressum</a>
+      </div>
+      <div class="footer-element">
+        <a href="https://github.com/PSandro/sandropischinger.de">contribute</a>
+      </div>
+      <div class="footer-element">
+        <a href="https://cloud.sandropischinger.de/">cloud</a>
+      </div>
     </div>
   </div>
 </template>
@@ -19,28 +28,43 @@ export default {
 
 .footer {
   background-color: #373d48;
-  height: 3em;
+  height: auto;
+  min-height: 3em;
   width: 100%;
   margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 .footer-grid {
-  width: 40%;
   margin: auto;
   height: auto;
-  display: inline-grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  justify-content: center;
+  display: flex;
   align-items: center;
-
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer-element {
+  flex-basis: 0;
+  flex-grow: 25;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFFFFF;
-  text-decoration: none;
+  margin: 10px;
 }
+
+a, p {
+  margin: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+@media only screen and (min-width: 800px) {
+  .footer-grid {
+    max-width: 60%;
+  }
+}
+
 
 </style>

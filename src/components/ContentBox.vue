@@ -23,12 +23,19 @@ export default {
 }
 h1 {
   text-align: center;
-  font-size: 90pt;
+  font-size: 15vw;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   margin: 0;
   margin-bottom: 2%;
   padding: 0;
+}
+
+
+@media only screen and (min-width: 800px) {
+  h1 {
+    font-size: 90pt;
+  }
 }
 
 </style>

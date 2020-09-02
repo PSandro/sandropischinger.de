@@ -12,10 +12,16 @@ export default {
 <style scoped>
 
   #email {
-    font-size: 24pt;
+    font-size: 6vw;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 2%;
+  }
+
+  @media only screen and (min-width: 800px) {
+    #email {
+      font-size: 30pt;
+    }
   }
 
 </style>

@@ -26,6 +26,7 @@ import Contact from './components/content/Contact.vue'
 import Links from './components/content/Links.vue'
 
 
+
 export default {
   name: 'App',
   components: {
@@ -55,11 +56,5 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
-}
-
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 </style>

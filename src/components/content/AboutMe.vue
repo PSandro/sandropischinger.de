@@ -14,6 +14,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   #text {
+    min-width: 700px;
     width: 60%;
     font-size: 20pt;
     font-family: 'Roboto', sans-serif;
@@ -21,6 +22,24 @@ export default {
   }
 
   #profile {
-    width: 30%;
+    max-width: 400px;
+    margin: 5%;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  @media only screen and (max-width: 800px) {
+    #text {
+       min-width: 0;
+       width: 100%;
+       font-size: 18pt;
+     }
+    #profile {
+       max-width: 70%;
+    }
   }
 </style>
