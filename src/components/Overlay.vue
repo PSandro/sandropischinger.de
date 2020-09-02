@@ -14,6 +14,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  
 .overlay {
   background-color: #373d48;
   padding: 0;
@@ -24,6 +25,7 @@ export default {
   align-items: center;
   justify-content: center;
 }
+
 #logo {
   height: 10em;
 }
