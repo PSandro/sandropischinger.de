@@ -25,6 +25,7 @@ import AboutMe from './components/content/AboutMe.vue'
 import Contact from './components/content/Contact.vue'
 import Links from './components/content/Links.vue'
 
+
 export default {
   name: 'App',
   components: {
