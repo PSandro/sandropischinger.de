@@ -29,6 +29,7 @@ h1 {
   margin: 0;
   margin-bottom: 2%;
   padding: 0;
+  text-transform: uppercase;
 }
 
 
