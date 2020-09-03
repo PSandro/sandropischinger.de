@@ -1,19 +1,17 @@
 <template>
-  <div id="app">
-    <Overlay/>
-    <ContentBox title="ABOUT ME">
-      <AboutMe/>
-    </ContentBox>
-    <ContentBox title="CONTACT">
-      <Contact/>
-    </ContentBox>
-    <ContentBox title="LINKS">
-      <Links/>
-    </ContentBox>
-    <Footer/>
-
-
-  </div>
+<div id="app">
+  <Overlay />
+  <ContentBox title="about me">
+    <AboutMe />
+  </ContentBox>
+  <ContentBox title="contact">
+    <Contact />
+  </ContentBox>
+  <ContentBox title="links">
+    <Links />
+  </ContentBox>
+  <Footer />
+</div>
 </template>
 
 <script>
@@ -24,8 +22,6 @@ import Footer from './components/Footer.vue'
 import AboutMe from './components/content/AboutMe.vue'
 import Contact from './components/content/Contact.vue'
 import Links from './components/content/Links.vue'
-
-
 
 export default {
   name: 'App',
@@ -49,6 +45,7 @@ body {
   height: 100%;
   margin: 0;
 }
+
 #app {
   text-align: center;
   font-family: 'Roboto', sans-serif;

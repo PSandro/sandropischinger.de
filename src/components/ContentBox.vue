@@ -1,8 +1,8 @@
 <template>
-  <div class="content-box">
-    <h1>{{ title }}</h1>
-    <slot/>
-  </div>
+<div class="content-box">
+  <h1>{{ title }}</h1>
+  <slot />
+</div>
 </template>
 
 <script>
@@ -15,12 +15,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .content-box {
   background-color: #FFFFFF;
   padding: 0;
   margin: 5%;
   margin-top: 10%;
 }
+
 h1 {
   text-align: center;
   font-size: 15vw;
@@ -29,6 +31,7 @@ h1 {
   margin: 0;
   margin-bottom: 2%;
   padding: 0;
+  text-transform: uppercase;
 }
 
 
@@ -37,5 +40,4 @@ h1 {
     font-size: 90pt;
   }
 }
-
 </style>

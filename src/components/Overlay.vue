@@ -1,22 +1,19 @@
 <template>
-  <div class="overlay">
-    <img id="logo" alt="Sandro Pischinger logo" src="./../assets/logo.svg">
-    <i class="fas fa-arrow-down page-scroll"></i>
-  </div>
-
+<div class="overlay">
+  <img id="logo" alt="Sandro Pischinger logo" src="./../assets/logo.svg">
+  <i class="fas fa-arrow-down page-scroll"></i>
+</div>
 </template>
 
 <script>
 export default {
   name: 'Overlay',
-  props: {
-  },
+  props: {},
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .page-scroll {
   position: absolute;
   margin: 5px;
@@ -42,6 +39,4 @@ export default {
   margin: 5%;
   align-self: center;
 }
-
-
 </style>
