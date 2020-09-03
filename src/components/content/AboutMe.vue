@@ -1,7 +1,7 @@
 <template>
 <div class="box">
   <img id="profile" alt="Image of myself" src="./../../assets/profile.jpg">
-  <p id="text">My Name is Sandro Pischinher and I'm in love with technology: Servers, Computers, Coding, DevOps, IT-Security, Cables, Buttons,... music to my ears! My personal experiences and interests in technology have grown for over a decade -
+  <p id="text">My Name is Sandro Pischinger and I'm in love with technology: Servers, Computers, Coding, DevOps, IT-Security, Cables, Buttons,... music to my ears! My personal experiences and interests in technology have grown for over a decade -
     with me being just 18 years old. Thus, I've always been the one to ask when some tech-thingy wasn't working as expected, e.g. the computer/TV/projector/speakers in class or some software-issue. In addition to just using technology, I began
     creating and modifying stuff such as assembling a computer, wiring a LAN-network... . Having grown a good knowledge base in hardware, I soon started working with software: Contributing to OpenSource-Software, creating websites and handy Bash or
     Python scripts, as well as building applications together with other tech enthusiasts at a coding-camp. I'm always interested and motivated in learning new things and working with the latest technology!</p>
