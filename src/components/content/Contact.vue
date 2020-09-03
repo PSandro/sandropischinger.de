@@ -1,5 +1,5 @@
 <template>
-  <p id="email">mail@sandropischinger.de</p>
+  <a href="mailto:mail@sandropischinger.de" id="email">mail@sandropischinger.de</a>
 </template>
 
 <script>
@@ -15,7 +15,14 @@ export default {
     font-size: 6vw;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    text-decoration: none;
     margin: 2%;
+    color: #373d48;
+    font-weight: 100;
+  }
+
+  #email:hover {
+    text-decoration: underline;
   }
 
   @media only screen and (min-width: 800px) {
