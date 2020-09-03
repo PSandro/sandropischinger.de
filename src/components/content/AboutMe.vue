@@ -40,7 +40,7 @@ export default {
   #text {
     min-width: 0;
     width: 100%;
-    font-size: 18pt;
+    font-size: 16pt;
   }
 
   #profile {
