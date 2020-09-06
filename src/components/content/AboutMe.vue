@@ -1,10 +1,10 @@
 <template>
 <div class="box">
   <img id="profile" alt="Image of myself" src="./../../assets/profile.jpg">
-  <p id="text">My Name is Sandro Pischinger and I'm in love with technology: Servers, Computers, Coding, DevOps, IT-Security, Cables, Buttons,... music to my ears! My personal experiences and interests in technology have grown for over a decade -
-    with me being just 18 years old. Thus, I've always been the one to ask when some tech-thingy wasn't working as expected, e.g. the computer/TV/projector/speakers in class or some software-issue. In addition to just using technology, I began
-    creating and modifying stuff such as assembling a computer, wiring a LAN-network... . Having grown a good knowledge base in hardware, I soon started working with software: Contributing to OpenSource-Software, creating websites and handy Bash or
-    Python scripts, as well as building applications together with other tech enthusiasts at a coding-camp. I'm always interested and motivated in learning new things and working with the latest technology!</p>
+  <p id="text">My Name is Sandro Pischinger and a big part of my life is my passion for technology: Servers, Computers, Coding, DevOps, IT-Security, Cables, Buttons. These words are music to my ears! 
+My personal experience and interest in technology has grown for over a decade now - with me just being 18 years old. So naturally I've always been the one to ask, when any tech related devices - the computer/TV/projector/speakers - weren´t working the way they should in class or anywhere else for that matter. In addition to just using technology, I early began creating and modifying stuff, assembling computers and wiring LAN-networks. 
+Having gained a decent knowledge about hardware over the years, I soon started working with software for example by contributing to OpenSource-Software, creating websites and handy Bash or Python scripts, as well as creating applications with other tech enthusiasts at a coding-camp. 
+Furthermore I have an insatiable interest in learning new things and working with the latest technology!</p>
 </div>
 </template>
 
