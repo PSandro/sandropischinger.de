@@ -1,6 +1,10 @@
 <template>
 <div id="contact">
-  <a href="mailto:mail@sandropischinger.de" id="email">mail@sandropischinger.de</a>
+  <a href="#" id="email"
+   data-name="mail"
+   data-domain="sandropischinger"
+   data-tld="de"
+   onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">ed.regnihcsipordnas@liam</a>
   <a href="sandro_pischinger.asc" class="pgp">PGP public key</a>
 </div>
 </template>
@@ -10,7 +14,6 @@ export default {
   name: 'Contact',
 }
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #contact {
@@ -31,6 +34,8 @@ export default {
   margin: 2%;
   color: #373d48;
   font-weight: 100;
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }
 
 .pgp {
