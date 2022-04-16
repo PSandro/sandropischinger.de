@@ -1,7 +1,7 @@
 <template>
 <div class="grid">
   <div class="grid-element">
-    <a href="https://twitter.com/sapisch"><i class="fab fa-twitter brand"></i></a>
+    <a href="https://www.linkedin.com/in/sandro-pischinger/"><i class="fab fa-linkedin brand"></i></a>
   </div>
   <div class="grid-element">
     <a href="https://github.com/PSandro"><i class="fab fa-github  brand"></i></a>

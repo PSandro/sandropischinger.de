@@ -2,7 +2,7 @@
 <div class="footer">
   <div class="footer-grid">
     <div class="footer-element">
-      <p class="footer-text">&copy;2020 Sandro Pischinger</p>
+      <p class="footer-text">&copy;2022 Sandro Pischinger</p>
     </div>
     <div class="footer-element">
       <a @click="showModal" class="footer-text">Impressum</a>
@@ -18,7 +18,7 @@
 <modal title="Impressum" v-show="isModalVisible" @close="closeModal">
   <template v-slot:body>
     <p>Sandro Pischinger
-      <br />85072 Eichstätt</p>
+      <br />85748 Garching bei München</p>
     <p>E-Mail: <a href="mailto:impressum@sandropischinger.de">impressum@sandropischinger.de</a><br /></p>
     <p>Disclaimer – rechtliche Hinweise</p>
 

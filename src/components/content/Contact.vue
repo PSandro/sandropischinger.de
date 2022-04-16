@@ -5,7 +5,6 @@
    data-domain="sandropischinger"
    data-tld="de"
    onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">ed.regnihcsipordnas@liam</a>
-  <a href="sandro_pischinger.asc" class="pgp">PGP public key</a>
 </div>
 </template>
 
@@ -36,23 +35,6 @@ export default {
   font-weight: 100;
   unicode-bidi: bidi-override;
   direction: rtl;
-}
-
-.pgp {
-  background-color: #373d48;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  transition: all 1s linear;
-  transition-timing-function: ease-in-out;
-}
-
-.pgp:hover {
-  background-color: #3f5973;
 }
 
 #email:hover {
